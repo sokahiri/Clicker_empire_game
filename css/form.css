@@ -1,0 +1,35 @@
+.form-background{
+    background-color: gray;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .form-img{
+        display: none;
+    }
+    .form{
+        background-image: url(https://cdn.pixabay.com/photo/2016/11/13/12/52/kuala-lumpur-1820944_960_720.jpg);
+        background-size: cover;
+        background-position: left center;
+        width: 100vh;
+        height: 70vh;
+        border: 2vh ridge rgb(94, 56, 0);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .title-color{
+        color: white;
+        border: 2px solid goldenrod;
+    }
+}
+
+@media (min-width: 992px) {
+    .form{
+        height: 95vh;
+    }
+}

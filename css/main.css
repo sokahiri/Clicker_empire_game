@@ -1,0 +1,103 @@
+.background{
+    width: 100vw;
+    background-color: rgb(158, 98, 9);
+    margin: 0;
+    padding: 0;
+    border: 2vh ridge rgb(94, 56, 0);
+}
+
+@media (min-width: 768px) {
+    .background{
+        height: 100vh;
+        overflow-x: hidden;
+    }
+}
+
+.mini-border{
+    border: 0.7vh ridge rgb(94, 56, 0);
+}
+.right-panel{
+    max-height: 60vh;
+    border: 0.7vh ridge rgb(94, 56, 0);
+    background-color: rgb(15, 73, 0);
+    color: white
+}
+@media (min-width: 768px) {
+    .right-panel{
+        max-height: 100vh;
+    }
+}
+.fa-fluid{
+    font-size: 2rem;
+}
+@media (min-width: 768px) {
+    .fa-fluid{
+        font-size: 3rem;
+    }
+}
+.test{
+    font-size: 16px;
+}
+.break-all{
+    word-break: break-all;
+}
+.icon-size{
+    font-size: 3rem;
+}
+.item-tab{
+    height: 18vh;
+    border: 3px double rgb(94, 56, 0);
+    min-height: 100px;
+}
+.item-img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.height-fix{
+    height: 100%;
+}
+.gain-text{
+    font-size: 0.8rem;
+    color: rgb(60, 219, 60);
+}
+.y-scrollable{
+    overflow-y: scroll;
+}
+.font-gold{
+    color: rgb(231, 191, 9);
+}
+.border-co{
+    border-color: rgb(129, 129, 129);
+}
+
+.buy-button{
+    border-radius: 15px;
+    border-width: 3px;
+    box-shadow: none !important;
+}
+.buy-button:hover{
+    color: rgb(231, 191, 9) !important;
+}
+.discription-stock-canvas-div{
+    position: relative;
+    min-height: 18vh;
+}
+.itemTab-stock-canvas-div{
+    position: relative;
+}
+.go-back {
+    background-color: rgb(255, 255, 255) !important;
+}
+.go-back:hover {
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(187, 187, 187) !important;
+}
+.buy-sell-radio{
+    color: white !important;
+}
+.btn-check:checked+label{
+    color: yellow !important;
+    box-shadow: none !important;
+    text-decoration: underline;
+}
